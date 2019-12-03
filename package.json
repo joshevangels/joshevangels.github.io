@@ -1,0 +1,65 @@
+{
+  "name": "joshevangels.github.io",
+  "version": "1.0.0",
+  "description": "My ongoing home page on the internet for now",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run clean && tsc --pretty && jest",
+    "dev": "npm run clean && parcel src/index.html",
+    "build": "npm run clean && parcel build --public-url '/' src/index.html",
+    "deploy": "npm run build && gh-pages -b master -d dist",
+    "clean": "rm -rf dist/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshevangels/joshevangels.github.io.git"
+  },
+  "keywords": [],
+  "author": "Joshua Evangelista",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joshevangels/joshevangels.github.io/issues"
+  },
+  "homepage": "https://github.com/joshevangels/joshevangels.github.io",
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "@types/enzyme": "^3.10.3",
+    "@types/enzyme-adapter-react-16": "^1.0.5",
+    "@types/jest": "^24.0.23",
+    "@types/react": "^16.9.14",
+    "@types/react-dom": "^16.9.4",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.15.1",
+    "jest": "^24.9.0",
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.23.7",
+    "ts-jest": "^24.2.0",
+    "tslint": "^5.20.1",
+    "tslint-react": "^4.1.0",
+    "typescript": "^3.7.2",
+    "typescript-tslint-plugin": "^0.5.5"
+  },
+  "jest": {
+    "roots": [
+      "<rootDir>/src"
+    ],
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.tsx?$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ],
+    "setupFilesAfterEnv": [
+      "<rootDir>/src/setupEnzyme.js"
+    ]
+  }
+}
