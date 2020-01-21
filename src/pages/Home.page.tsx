@@ -24,4 +24,4 @@ export const HomePage: React.FunctionComponent = () => {
             </main>
         </div>
     );
-}
+};
