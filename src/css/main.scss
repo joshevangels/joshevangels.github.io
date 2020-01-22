@@ -1,13 +1,17 @@
 body {
     display: flex;
 
-    background-color: #fdf9f3;
+    background-color: #fff6f0;
 
     margin: 0;
 
     width: 100%;
 
     font-family: Helvetica, Verdana, Geneva, Tahoma, sans-serif;
+
+    &.dark-mode {
+        background-color: #150811;
+    }
 }
 
 #root {
@@ -27,7 +31,6 @@ header {
 
     background-color: #f03434;
     
-
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;;
 
@@ -35,12 +38,18 @@ header {
 
     width: calc(100% - 40px);
     max-height: 200px;
+
+    &.dark-mode {
+        background-color: #ab9df2;
+    }
 }
 
 main {
-    padding-left: 40px;
-    padding-right: 40px;
+    padding: 20px 40px 0 40px;
 
-    // color: #19b5fe;
     color: #150811;
+
+    &.dark-mode {
+        background-color: #fff6f0;
+    }
 }
