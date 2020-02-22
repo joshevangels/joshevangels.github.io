@@ -1,21 +1,31 @@
-import {shallow} from "enzyme";
+import { shallow } from "enzyme";
 import * as React from "react";
+import { InfoCard } from "../../components/InfoCard";
+import { ProjectCard } from "../../components/ProjectCard";
 import { HomePage } from "../Home.page";
 
 describe("Page Component", () => {
-    it("renders the header component", () => {
-        const subject = shallow(<HomePage/>);
-
-        const header = subject.find("header");
-
-        expect(header.exists()).toBe(true);
-    });
-
     it("renders the main section", () => {
         const subject = shallow(<HomePage/>);
 
-        const header = subject.find("header");
+        const main = subject.find("main");
 
-        expect(header.exists()).toBe(true);
+        expect(main.exists()).toBe(true);
+    });
+
+    it("renders a card", () => {
+        const subject = shallow(<HomePage/>);
+
+        const card = subject.find(InfoCard);
+
+        expect(card.exists()).toBe(true);
+    });
+
+    it("renders ProjectCard components", () => {
+        const subject = shallow(<HomePage/>);
+
+        const cards = subject.find(ProjectCard);
+
+        expect(cards.length).toBeGreaterThan(0);
     });
 });
