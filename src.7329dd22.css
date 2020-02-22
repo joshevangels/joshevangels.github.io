@@ -1,2 +1,0 @@
-body{display:flex;background-color:#fff6f0;margin:0;width:100%;font-family:Helvetica,Verdana,Geneva,Tahoma,sans-serif}body.dark-mode{background-color:#150811}#root,.homepage{width:100%}.homepage{display:grid;justify-items:center}header{display:flex;background-color:#f03434;border-bottom-left-radius:10px;border-bottom-right-radius:10px;padding:20px;width:calc(100% - 40px);max-height:200px}header.dark-mode{background-color:#ab9df2}main{padding:20px 40px 0;color:#150811}main.dark-mode{background-color:#fff6f0}
-/*# sourceMappingURL=/src.7329dd22.css.map */
