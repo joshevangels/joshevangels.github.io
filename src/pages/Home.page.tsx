@@ -2,6 +2,7 @@ import * as React from "react";
 import { InfoCard } from "../components/InfoCard";
 import { ProjectCard } from "../components/ProjectCard";
 import ColorLogo from "../images/color-orbment.svg";
+import DonutLogo from "../images/donut.svg";
 import PhantomHourglass from "../images/PHSPT.png";
 
 export const HomePage: React.FunctionComponent = () => {
@@ -48,7 +49,7 @@ export const HomePage: React.FunctionComponent = () => {
                     Coming Soon...
                 </h2>
                 <div className="coming-section card-group">
-                    <img src={ColorLogo}/>
+                    <img src={DonutLogo}/>
                     <img src={ColorLogo}/>
                 </div>
             </main>
