@@ -32,8 +32,8 @@ export const HomePage: React.FunctionComponent = () => {
                         imgSrc={ColorLogo}
                         description="This Page! Will probably be updated more often
                         than the other projects here."
-                        liveLink="https://joshevangels.github.io/"
-                        sourceLink=""
+                        liveLink="https://joshevangelista.com/"
+                        sourceLink="https://github.com/joshevangels/joshevangels.github.io"
                     />
                     <ProjectCard
                         title="Ship Part Tracker"
@@ -41,8 +41,8 @@ export const HomePage: React.FunctionComponent = () => {
                         description="A small web app built to track and calculate the bonuses
                         of the ship parts in the Nintendo DS game: Legend Of Zelda: Phantom
                         Hourglass."
-                        liveLink="https://joshevangels.github.io/phantom-hourglass-ship-part-tracker/"
-                        sourceLink=""
+                        liveLink="hthttps://joshevangelista.com/phantom-hourglass-ship-part-tracker/"
+                        sourceLink="https://github.com/joshevangels/phantom-hourglass-ship-part-tracker"
                     />
                 </div>
                 <h2 className="header">
