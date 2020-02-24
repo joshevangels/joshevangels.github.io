@@ -41,7 +41,7 @@ export const HomePage: React.FunctionComponent = () => {
                         description="A small web app built to track and calculate the bonuses
                         of the ship parts in the Nintendo DS game: Legend Of Zelda: Phantom
                         Hourglass."
-                        liveLink="hthttps://joshevangelista.com/phantom-hourglass-ship-part-tracker/"
+                        liveLink="https://joshevangelista.com/phantom-hourglass-ship-part-tracker/"
                         sourceLink="https://github.com/joshevangels/phantom-hourglass-ship-part-tracker"
                     />
                 </div>
