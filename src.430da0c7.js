@@ -31,4 +31,4 @@ module.exports="/PHSPT.4b94a664.png";
 },{"react":"n8MK","../components/InfoCard":"z2QG","../components/ProjectCard":"ZKEe","../images/color-orbment.svg":"CMU9","../images/donut.svg":"bIU4","../images/PHSPT.png":"qe3S"}],"zo2T":[function(require,module,exports) {
 "use strict";var e=this&&this.__importStar||function(e){if(e&&e.__esModule)return e;var r={};if(null!=e)for(var t in e)Object.hasOwnProperty.call(e,t)&&(r[t]=e[t]);return r.default=e,r};Object.defineProperty(exports,"__esModule",{value:!0});var r=e(require("react")),t=e(require("react-dom"));require("./css/main.scss");var a=require("./pages/Home.page"),n=function(){t.render(r.createElement(a.HomePage,null),document.getElementById("root"))};n();
 },{"react":"n8MK","react-dom":"NKHc","./css/main.scss":"V4IP","./pages/Home.page":"cnLX"}]},{},["zo2T"], null)
-//# sourceMappingURL=/src.26e1a350.js.map
+//# sourceMappingURL=/src.430da0c7.js.map
